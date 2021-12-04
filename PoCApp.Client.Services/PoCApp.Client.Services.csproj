@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="4.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PoCApp.Client.Contracts\PoCApp.Client.Contracts.csproj" />
+    <ProjectReference Include="..\PoCApp.Client.Entities\PoCApp.Client.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
